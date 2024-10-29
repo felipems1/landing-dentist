@@ -1,0 +1,13 @@
+<div class="grid grid-cols-2 sm:grid-cols-1 sm:gap-4">
+  <div class="flex items-center gap-2">
+    <mat-icon [className]="'text-blue-500'">{{ icon() }}</mat-icon>
+    <span>{{ title() }}</span>
+  </div>
+
+  <div class="flex flex-col gap-2 text-sm text-zinc-500 text-start">
+    @for (text of texts(); track text) {
+      <span>{{ text }}</span>
+    }
+  </div>
+</div>
+
