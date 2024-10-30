@@ -1,14 +1,22 @@
 <div class="flex flex-col gap-5 p-5">
-  <span class="text-blue-500 text-xs">Especialidades</span>
-  <span class="text-3xl font-medium text-blue-950">Nuestros Servicios</span>
+  <div
+    class="flex flex-col gap-5"
+    data-aos="fade-up"
+    data-aos-duration="3000"
+    data-aos-delay="300"
+  >
+    <span class="text-blue-500 text-xs">Especialidades</span>
+    <span class="text-3xl font-medium text-blue-950">Nuestros Servicios</span>
+  </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
     @for (arr of [].constructor(6); track arr; let i = $index ) {
-      <app-service-card
-        [title]="'Implantes'"
-        [description]="
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi in similique aliquam veritatis beatae vero eaque explicabo.'"
-      ></app-service-card>
+    <app-service-card
+      [title]="'Implantes'"
+      [description]="
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi in similique aliquam veritatis beatae vero eaque explicabo.'
+      "
+    ></app-service-card>
     }
   </div>
 </div>

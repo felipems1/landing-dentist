@@ -1,19 +1,27 @@
-<div class="grid grid-cols-1 gap-5 sm:grid-cols-3 py-8 px-5 sm:justify-items-center" >
+<div
+  class="grid grid-cols-1 gap-5 sm:grid-cols-3 py-8 px-5 sm:justify-items-center"
+  data-aos="fade-up"
+  data-aos-easing="linear"
+  data-aos-duration="2000"
+>
   <app-contact-info
     icon="location_on"
     title="Dirección"
-    [texts]="['Av. Color 1560', 'Cordoba, Cordoba Capital']" @fadeIn>
+    [texts]="['Av. Color 1560', 'Cordoba, Cordoba Capital']"
+  >
   </app-contact-info>
 
   <app-contact-info
     icon="email"
     title="Email"
-    [texts]="['infodentista.com.ar', 'infotudentista.com.ar']" @fadeIn>
+    [texts]="['infodentista.com.ar', 'infotudentista.com.ar']"
+  >
   </app-contact-info>
 
   <app-contact-info
     icon="phone"
     title="Telefones"
-    [texts]="['351 7608XXX', '3541 7825XXX']" @fadeIn>
+    [texts]="['351 7608XXX', '3541 7825XXX']"
+  >
   </app-contact-info>
 </div>

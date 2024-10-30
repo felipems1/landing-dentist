@@ -1,10 +1,20 @@
 <div class="flex flex-col gap-5 p-5 text-center">
-  <span class="text-blue-500 text-xs">Sacate las dudas</span>
-  <span class="text-3xl font-medium text-blue-950">Preguntas Frecuentes</span>
+  <div
+    class="flex flex-col gap-5"
+    data-aos="fade-left"
+    data-aos-duration="3000"
+    data-aos-delay="300"
+  >
+    <span class="text-blue-500 text-xs">Sacate las dudas</span>
+    <span class="text-3xl font-medium text-blue-950">Preguntas Frecuentes</span>
+  </div>
 
   <mat-accordion>
     @for (arr of [].constructor(5); track arr; let i = $index ) {
-      <mat-expansion-panel
+    <mat-expansion-panel
+      data-aos="fade-left"
+      data-aos-duration="3000"
+      data-aos-delay="300"
       (opened)="panelOpenState.set(true)"
       (closed)="panelOpenState.set(false)"
     >
