@@ -1,32 +1,39 @@
 # Landing Dentist
 
-## Tecnologias
+Uma landing page fictícia para uma clínica odontológica, construída com Angular, Tailwind CSS e Angular Material.
 
-- Angular
-- Tailwind CSS
-- Angular Material
+## Descrição
 
-## Instalação
+Este projeto é uma landing page, demonstrando informações sobre uma clínica odontológica fictícia.
 
-1. Clone este repositório:
+## Tecnologias Utilizadas
 
-   ```bash
-   git clone https://github.com/felipems1/landing-dentist.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd landing-dentist
-   ```
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-## Rodando projeto
+* Angular
+* Tailwind CSS
+* Angular Material
 
-1. Execute o seguinte comando para inicializar a aplicação:
+## Passos para Instalação
 
-   ```bash
-    npm run start
-   ```
+1. Clone o repositório: `git clone <URL_DO_REPOSITORIO>`
+2. Navegue até o diretório do projeto: `cd landing-dentist`
+3. Instale as dependências: `npm install`
 
-   
+## Como Usar
+
+1. Execute o comando `npm start`.
+2. O projeto estará disponível em `http://localhost:4200`.
+
+## Funcionalidades Principais
+
+* Apresentação da clínica e seus serviços.
+* Informações de contato.
+* Design responsivo para diferentes dispositivos.
+
+
+## Licença
+
+MIT
+
+## Contato
+
+[Meu Linkedin](https://www.linkedin.com/in/felipems1/)
